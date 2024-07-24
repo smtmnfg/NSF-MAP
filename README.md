@@ -6,7 +6,7 @@ Baselines
 This folder includes the baseline models developed.
 Three baseline models:
 
-Autoencoder:
+**Autoencoder**:
 To run py .Baselines/autoencoder.py
 
 Custom ViT:
