@@ -1,12 +1,12 @@
 # Repository for "NS-HyMAP: Neurosymbolic Multimodal Hybrid Fusion for Robust and Interpretable Anomaly Prediction in Assembly Pipelines" Paper
 This repository contains curated datasets, implementation of methods experimented and introduced in the paper titled "NS-HyMAP: Neurosymbolic Multimodal Hybrid Fusion for Robust and Interpretable Anomaly Prediction in Assembly Pipelines".
 
-#Baselines#
+# Baselines # 
 
 This folder includes the baseline models developed.
 Three baseline models:
 
-##Autoencoder##:
+## Autoencoder ##
 To run py .Baselines/autoencoder.py
 
 Custom ViT:
