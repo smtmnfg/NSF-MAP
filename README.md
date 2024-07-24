@@ -9,23 +9,23 @@ Three baseline models:
 ## Autoencoder ##
 To run py .Baselines/autoencoder.py
 
-Custom ViT:
+## Custom ViT ##
 To run py .Baselines/custom_vit.py
 
-CNN:
+## CNN ##
 To run py .Baselines/image_with_seg_cnn.py
 
-Pretrained-CNN:
+## Pretrained-CNN ##
 To run py .Baselines/image_with_segmentation_pretrainedcnn.py
 
-Pretrained-ViT:
+## Pretrained-ViT ##
 To run py .Baselines/image_with_segmentation_vit.py
 
-#Proposed Fusion Approach#
+# Proposed Fusion Approach #
 
 This folder includes the models for the proposed approach.
 
-#Data Preprocessing#
+# Data Preprocessing #
 
 This folder contains the codes used to extract the analog and multimodal datasets which was created from the Future Factories(FF) Dataset (https://www.kaggle.com/datasets/ramyharik/ff-2023-12-12-analog-dataset)
 
