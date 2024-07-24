@@ -24,13 +24,13 @@ To run py .Baselines/image_with_segmentation_vit.py
 # Proposed Fusion Approach #
 
 This folder includes the models for the proposed approach.
-# Decision level fusion #
+## Decision level fusion ##
 To run py .Proposed Fusion Approach/decision_level_fusion.py
 
-# Decision level fusion with transfer learning #
+## Decision level fusion with transfer learning ##
 To run py .Proposed Fusion Approach/2.frozen_weighted_loss5.py
 
-# Enhanced Decision-Level Fusion with Transfer Learning through Neurosymbolic AI #
+## Enhanced Decision-Level Fusion with Transfer Learning through Neurosymbolic AI ##
 To run py .Proposed Fusion Approach/3.KI.py
 
 # Data Preprocessing #
