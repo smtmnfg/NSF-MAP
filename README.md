@@ -10,6 +10,7 @@ The final preprocessed multimodal dataset available at: https://drive.google.com
 
 The final preprocessed analog dataset available at: https://drive.google.com/drive/folders/1v-UyJqlZMG68Mwd2Gict9E885MS023iR?usp=sharing
 
+It also includes the additional experiments done to investigate the feature importance of sensor variables. 
 
 # 2. Baselines # 
 
