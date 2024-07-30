@@ -21,15 +21,19 @@ Three baseline models:
 To run py .Baselines/autoencoder.py
 
 ## Custom ViT ##
+Reproduced from the method implemented in the paper "AssemAI: Interpretable Image-Based Anomaly Prediction for Manufacturing Pipelines"
 To run py .Baselines/custom_vit.py
 
 ## CNN ##
+Reproduced from the method implemented in the paper "AssemAI: Interpretable Image-Based Anomaly Prediction for Manufacturing Pipelines"
 To run py .Baselines/image_with_seg_cnn.py
 
 ## Pretrained-CNN ##
+Reproduced from the method implemented in the paper "AssemAI: Interpretable Image-Based Anomaly Prediction for Manufacturing Pipelines"
 To run py .Baselines/image_with_segmentation_pretrainedcnn.py
 
 ## Pretrained-ViT ##
+Reproduced from the method implemented in the paper "AssemAI: Interpretable Image-Based Anomaly Prediction for Manufacturing Pipelines"
 To run py .Baselines/image_with_segmentation_vit.py
 
 # 3. Proposed Fusion Approach #
