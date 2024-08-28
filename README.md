@@ -1,12 +1,12 @@
-# Repository for "NS-HyMAP: Neurosymbolic Multimodal Hybrid Fusion for Robust and Interpretable Anomaly Prediction in Assembly Pipelines" Paper
-This repository contains curated datasets, implementation of methods experimented and introduced in the paper titled "NS-HyMAP: Neurosymbolic Multimodal Hybrid Fusion for Robust and Interpretable Anomaly Prediction in Assembly Pipelines".
+# Repository for "NSF-MAP: Neurosymbolic Multimodal Fusion for Robust and Interpretable Anomaly Prediction in Assembly Pipelines" Paper
+This repository contains curated datasets, implementation of methods experimented and introduced in the paper titled "NSF-MAP: Neurosymbolic Multimodal Fusion for Robust and Interpretable
+Anomaly Prediction in Assembly Pipelines".
 
 # 1. Data Preprocessing #
 
 This folder contains the codes used to extract the analog and multimodal datasets which was created from the Future Factories(FF) Dataset (https://www.kaggle.com/datasets/ramyharik/ff-2023-12-12-analog-dataset)
 
 The final preprocessed multimodal dataset available at: https://drive.google.com/drive/folders/1l7_Blmk_RrsLHqcW_4F7-ELtll_ZGyDv?usp=sharing
-
 
 The final preprocessed analog dataset available at: https://drive.google.com/drive/folders/1v-UyJqlZMG68Mwd2Gict9E885MS023iR?usp=sharing
 
@@ -54,3 +54,8 @@ To run py .Proposed Fusion Approach/4.KI_new_timebased_seperate_loss.py
 
 # 4. Future Factories Setup #
 This folder includes sample images obtained from the Future Factories(FF) Setup at University of South Carolina, USA 
+
+
+# 5. Demo
+NSF-MAP and process ontology is deployed at the FF testbed at the McNair Center, University of South Carolina
+This folfer includes the inference codes, user interface code for deployment, and the demo of deployment.
