@@ -19,13 +19,6 @@ time_series_data['actual_state'] = time_series_data['actual_state'].fillna(0).re
     'NoNose,NoBody2': 4, 'NoBody2,NoBody1': 5, 'NoNose,NoBody2,NoBody1': 6
 })
 
-
-noanomaly
-nonose
-NoNose,NoBody2
-NoNose,NoBody2,NoBody1
-NoBody1
-
 # Define transformations
 transform = transforms.Compose([
     transforms.Resize((224, 224)),
