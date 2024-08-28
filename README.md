@@ -46,8 +46,11 @@ To run py .Proposed Fusion Approach/decision_level_fusion.py
 To run py .Proposed Fusion Approach/2.frozen_weighted_loss5.py
 
 ## Enhanced Decision-Level Fusion with Transfer Learning through Neurosymbolic AI ##
+For random data splitting---
 To run py .Proposed Fusion Approach/3.KI.py
 
+For time based (cycle-wise) data splitting---
+To run py .Proposed Fusion Approach/4.KI_new_timebased_seperate_loss.py
 
 # 4. Future Factories Setup #
 This folder includes sample images obtained from the Future Factories(FF) Setup at University of South Carolina, USA 
