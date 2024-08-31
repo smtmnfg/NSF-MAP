@@ -442,20 +442,22 @@ class WeightedMSELossWithPenalty(nn.Module):
         for i, time_series_sample in enumerate(time_series):
             sensor_value_1 = targets[i, 0].item()  # Assuming 'I_RO2_Gripper_Pot' is in the first column
             sensor_value_2 = targets[i, 1].item()  # Assuming 'I_R03_Gripper_Pot' is in the second column
-
-            # Penalty for I_RO1_Gripper_Load
+            
             if cycle_state in self.normal_ranges_I_R02_Gripper_Pot:
-                min_range, max_range = self.normal_ranges_I_R02_Gripper_Pot[cycle_state]
-                if not (min_range <= sensor_value_1 <= max_range):
-                    penalty += (sensor_value_1 - min_range) ** 2 if sensor_value_1 < min_range else (
-                                                                                                                sensor_value_1 - max_range) ** 2
-
-            # Penalty for I_R02_Gripper_Pot
+            	min_range, max_range = self.normal_ranges_I_R02_Gripper_Pot[cycle_state]
+            	if not (min_range <= sensor_value_1 <= max_range) and 0 <= third_values_targets <= 150:
+            		penalty += (sensor_value_1 - min_range) ** 2 if sensor_value_1 < min_range else (sensor_value_1 - max_range) ** 2
+            	elif (min_range <= sensor_value_1 <= max_range) and not (0 <= third_values_targets <= 150):
+            		penalty += (sensor_value_1 - min_range) ** 2 if sensor_value_1 < min_range else (sensor_value_1 - max_range) ** 2
+            		
             if cycle_state in self.normal_ranges_I_R03_Gripper_Pot:
-                min_range, max_range = self.normal_ranges_I_R03_Gripper_Pot[cycle_state]
-                if not (min_range <= sensor_value_2 <= max_range):
-                    penalty += (sensor_value_2 - min_range) ** 2 if sensor_value_2 < min_range else (
-                                                                                                                sensor_value_2 - max_range) ** 2
+            	min_range, max_range = self.normal_ranges_I_R03_Gripper_Pot[cycle_state]
+            	if not (min_range <= sensor_value_2 <= max_range) and 0 <= third_values_targets <= 150:
+            		penalty += (sensor_value_2 - min_range) ** 2 if sensor_value_2 < min_range else (sensor_value_2 - max_range) ** 2
+            	elif (min_range <= sensor_value_2 <= max_range) and not (0 <= third_values_targets <= 150):
+            		penalty += (sensor_value_2 - min_range) ** 2 if sensor_value_2 < min_range else (sensor_value_2 - max_range) ** 2
+
+
 
         loss = weighted_loss_sensors + weighted_loss_anomaly + penalty
         return loss
@@ -671,8 +673,8 @@ actual_classes = df['next'].astype(int)
 report = classification_report(actual_classes, predicted_classes)
 print(report)
 
-df.to_csv('KI_new_timebasedsplit_seperate_loss.csv',
+df.to_csv('KI_new_timebasedsplit_seperate_loss_correctKI.csv',
           index=False)
 
 torch.save(model.state_dict(),
-           "KI_new_timebasedsplit_seperate_loss.pth")
+           "KI_new_timebasedsplit_seperate_loss_correctKI.pth")
