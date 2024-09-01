@@ -1,5 +1,5 @@
 # Repository for "NSF-MAP: Neurosymbolic Multimodal Fusion for Robust and Interpretable Anomaly Prediction in Assembly Pipelines" Paper
-This repository contains curated datasets, implementation of methods experimented and introduced in the paper titled "NSF-MAP: Neurosymbolic Multimodal Fusion for Robust and Interpretable
+This repository contains derived datasets, implementation of methods experimented and introduced in the paper titled "NSF-MAP: Neurosymbolic Multimodal Fusion for Robust and Interpretable
 Anomaly Prediction in Assembly Pipelines".
 
 # 1. Data Preprocessing #
