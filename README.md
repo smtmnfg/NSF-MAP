@@ -60,3 +60,6 @@ This folder includes sample images obtained from the Future Factories(FF) Setup 
 # 5. Demo
 NSF-MAP and process ontology is deployed at the FF testbed at the McNair Center, University of South Carolina
 This folfer includes the inference codes, user interface code for deployment, and the demo of deployment.
+
+Demo video is available at: https://www.youtube.com/watch?v=kg6zE9yCGlQ
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=kg6zE9yCGlQ)
