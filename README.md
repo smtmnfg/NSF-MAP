@@ -66,4 +66,4 @@ Demo video is available at: https://www.youtube.com/watch?v=kg6zE9yCGlQ
 
 # 6. Additional Experiments on NSF-MAP 
 This folder includes additional experimental results of NSF-MAP and ablation Studies. The document includes the Mean Squared Errors (MSE) and Root Mean Squared Errors (RMSE) for the
-sensor values and predicted anomaly labels.
+sensor values and predicted anomaly labels. The folder also includes additional experiments on the process ontology.
