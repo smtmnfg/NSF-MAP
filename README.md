@@ -62,7 +62,6 @@ NSF-MAP and process ontology is deployed at the FF testbed at the McNair Center,
 This folfer includes the inference codes, user interface code for deployment, and the demo of deployment.
 
 Demo video is available at: https://drive.google.com/file/d/1aD3qhYePzIhe4MZB8us-yNkh8dYOKqfW/view?usp=drive_link
-[![Watch the video](https://img.youtube.com/vi/kg6zE9yCGlQ/maxresdefault.jpg)](https://drive.google.com/file/d/1aD3qhYePzIhe4MZB8us-yNkh8dYOKqfW/view?usp=drive_link)
 
 
 # 6. Additional Experiments on NSF-MAP 
