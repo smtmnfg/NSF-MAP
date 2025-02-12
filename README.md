@@ -61,8 +61,8 @@ This folder includes sample images obtained from the Future Factories(FF) Setup 
 NSF-MAP and process ontology is deployed at the FF testbed at the McNair Center, University of South Carolina
 This folfer includes the inference codes, user interface code for deployment, and the demo of deployment.
 
-Demo video is available at: https://drive.google.com/file/d/1aD3qhYePzIhe4MZB8us-yNkh8dYOKqfW/view?usp=drive_link
-
+Demo video is available at: https://www.youtube.com/watch?v=kg6zE9yCGlQ
+[![Watch the video](https://img.youtube.com/vi/kg6zE9yCGlQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=kg6zE9yCGlQ)
 
 # 6. Additional Experiments on NSF-MAP 
 This folder includes additional experimental results of NSF-MAP and ablation Studies. The document includes the Mean Squared Errors (MSE) and Root Mean Squared Errors (RMSE) for the
